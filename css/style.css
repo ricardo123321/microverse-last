@@ -13,6 +13,7 @@ ul{
     text-decoration: none;
 }
 nav{ 
+    text-align: right;
     font-size: 2.3rem;
     position: fixed;
     top: 0em;
@@ -22,4 +23,31 @@ nav{
 }
 #welcome-section{
     height: 100vh;
+    background-color: rgb(143, 143, 25);
+    margin-bottom: 0rem;
+
+}
+@media(max-width: 800px){
+    html{
+        font-size: 5px;
+    }
+}
+h1{
+   position: relative;
+   top: 50%;
+   font-size: 5rem;
+}
+h2{
+    width: 100%;
+    background-color: blue;
+    font-size: 3rem;
+    margin-top: 0rem;
+    top: 0rem;
+    margin-bottom: 0rem;
+}
+.project-tile{
+    font-size: 1.5rem;
+    background-color: red;
+    padding-top: 2rem;
+    margin-top: 0rem;
 }
